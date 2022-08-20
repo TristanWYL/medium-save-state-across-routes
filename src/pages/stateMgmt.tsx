@@ -1,5 +1,5 @@
 import { Counter } from "../components/counter";
-import { updated, type State } from "../utils/store";
+import { updated, State } from "../utils/store";
 import { useSelector, useDispatch } from "react-redux";
 
 export const StateMgmtPage = () => {
